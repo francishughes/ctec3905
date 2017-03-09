@@ -1,3 +1,10 @@
+h1 {
+    color: grey;
+    margin-left: 20px;
+	font-size:34px;
+	line-height:1.5em;
+	text-align:center;
+}
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
