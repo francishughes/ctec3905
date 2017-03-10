@@ -4,84 +4,55 @@ h1 {
 	font-size:34px;
 	line-height:1.5em;
 	text-align:center;
+	font-family: "Georgia", Platino, book antiqua, palatino
 }
 
-<<<<<<< HEAD
-@keyframes layer2Anim{
-    0%{left:-100%;}
-    17%{left:-100%;}
-    33%{left:0;}
-    50%{left:0;}
-    67%{left:-100%;}
-    100%{left:-100%;}
+body {
+    margin:0; 
+    padding:0; 
+    background:#efefef;
+    text-align:center; /* used to center div in IE */
 }
-@keyframes layer3Anim{
-    0%{left:100%;}
-    50%{left:100%;}
-    67%{left:0;}
-    83%{left:0;}
-    100%{left:100%}
-=======
-@keyframes layer2Anim {
-    0%{opacity:0;}
-    17%{opacity:0;}
-    33%{opacity:1;}
-    50%{opacity:1;}
-    67%{opacity:0;}
-    100%{opacity:0;}
+#wrapper {
+    width:600px; 
+    margin:0 auto; /*centers the div horizontally in all browsers (except IE)*/
+    background:#fff; 
+    text-align:left; /*resets text alignment from body tag */
+    border:1px solid #ccc;
+    border-top:none; 
+    padding:25px; 
+    /*Let's add some CSS3 styles, these will degrade gracefully in older browser and IE*/
+    border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px; 
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
 }
-@keyframes layer3Anim {
-    0%{opacity:0;}
-    50%{opacity:0;}
-    67%{opacity:1;}
-    83%{opacity:1;}
-    100%{opacity:0;}
->>>>>>> refs/remotes/origin/Contact-Page
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:url(overlay.png) repeat; 
+    text-align:center;
 }
-.slideShow {
-    position: relative;
+
+#lightbox p {
+    text-align:right; 
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px; 
 }
-.placeHolder {
-    width: 100%;
-    visibility: hidden;
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
 }
-.layer1, .layer2, .layer3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.layer1 {
-    background-image: url(P1.jpg);
-}
-.layer2 {
-    background-image: url(P2.jpg);
-    animation: layer2Anim 10s infinite;
-}
-.layer3 {
-    background-image: url(P3.jpg);
-    animation: layer3Anim 10s infinite;
-}
-.slideOverlay {
-    background-image: url(slideshow/overlay.png);
-    background-attachment: fixed;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-.slideOverlay p {
-    position: relative;
-    font-size: 6vw;
-    color: #fff;
-    text-shadow: 3px 3px 6px #000;
-    text-align: center;
-    top: 30%;
-}
+
 
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
@@ -90,7 +61,8 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-	text-align:center;
+	
+
 }
 
 
@@ -107,6 +79,7 @@ ul.topnav li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+	font-family: "Georgia", Platino, book antiqua, palatino
 }
 
 /* Change background color of links on hover */
@@ -142,9 +115,6 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
-<<<<<<< HEAD
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-=======
->>>>>>> refs/remotes/origin/Contact-Page
 
