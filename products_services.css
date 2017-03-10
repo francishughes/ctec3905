@@ -5,7 +5,59 @@ h1 {
 	line-height:1.5em;
 	text-align:center;
 }
+.templateMain .zoneOne {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 431px;
+    height: 400px;
+    background: #fff;
+}
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: inherit;
+    font-family: inherit;
+    font-size: 100%;
+}
+div {
+    display: block;
+}
 
+#wrap {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 610px;
+    height: 100%;
+    min-width: 700px;
+    text-align: left;
+}
+
+@media screen and (max-height: 700px)
+hatch.css?8d:221
+.templateMain .zoneOne {
+    height: 380px;
+}
+@media screen and (max-height: 700px)
+hatch.css?8d:216
+nav.quaternaryMenu, .templateMain .zoneOne, .imageHolder, .moreNews {
+    bottom: 50px;
+}
+@media screen and (max-height: 725px)
+hatch.css?8d:204
+nav.quaternaryMenu, .templateMain .zoneOne, .imageHolder, .moreNews {
+    bottom: 50px;
+}
+hatch.css?8d:63
+.templateMain .zoneOne {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 431px;
+    height: 400px;
+    background: #fff;
+}
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;

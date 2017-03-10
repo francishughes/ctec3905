@@ -53,7 +53,12 @@ body {
     max-width:940px;
 }
 
-
+.post-thumb img {
+   
+    width:50px;
+    height:50px;
+    border:1px solid red;
+}
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
